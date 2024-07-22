@@ -1,2 +1,2 @@
 # DataLakeITS
-ITS Data Lake 1 Exercises
+Exercise for the Data Lake Architecture 1 course
