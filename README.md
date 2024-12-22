@@ -4,7 +4,7 @@ This is a project done during my studies at ITS Angelo Rizzoli.
 ## Prerequisites:
 - Python Programming
 - Neo4J Server
-- Iliad Dataset
+- Pandas Library
 
 ## Datasets:
 - Iliad cell towers dataset (CSV)
