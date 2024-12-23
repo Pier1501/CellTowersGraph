@@ -1,6 +1,6 @@
 from dotenv import dotenv_values
 
-NEO_URL = "neo4j+s://"
+NEO_URL = "bolt://"
 
 class DatabaseData:
     def __init__(self):
@@ -11,3 +11,6 @@ class DatabaseData:
 
     def get_connection(self, link_ref = "DATABASE_LINK"):
         return NEO_URL + self.db_values[link_ref]
+    
+    def get_user(self, name_ref = "DATABASE_USER"):
+        return self.db_values[name_ref]
