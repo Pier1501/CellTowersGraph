@@ -1,3 +1,4 @@
+import os
 from dotenv import dotenv_values
 
 NEO_URL = "bolt://"
@@ -7,4 +8,5 @@ class DatabaseData:
         self.db_values = dotenv_values(".env")
         self.password = self.db_values[password_ref]
         self.user = self.db_values[user_ref]
-        self.get_connection = NEO_URL + self.db_values[link_ref]
+        self.link = self.db_values[link_ref]
+        self.connection = NEO_URL + self.link
