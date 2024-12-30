@@ -2,3 +2,4 @@ reverse-geocode==1.6.5
 neo4j==5.27.0
 pandas==2.2.3
 python-dotenv==1.0.1
+skimpy==0.0.16
